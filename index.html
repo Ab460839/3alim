@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>عيد ميلاد عليم</title>
+  <meta name="description" content="موقع صغير هدية لعيد ميلاد عليم">
+  <meta name="robots" content="noindex, nofollow">
+  <meta property="og:title" content="عيد ميلاد عليم">
+  <meta property="og:description" content="موقع سري بكلمة سر. اكتبها وادخل.">
+  <meta property="og:image" content="img/p3.jpg">
+  <meta name="theme-color" content="#0b1424">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%82%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Lalezar&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+
+  <section class="gate" id="gate">
+    <h1>موقع سري لعليم</h1>
+    <p>الدخول بكلمة السر فقط. اكتبها وادخل.</p>
+    <form id="gateForm" autocomplete="off">
+      <input id="pw" type="password" placeholder="كلمة السر" aria-label="كلمة السر" autocomplete="off">
+      <button class="btn" type="submit">ادخل</button>
+    </form>
+    <div class="err" id="err" role="status"></div>
+  </section>
+
+  <main id="site" hidden>
+
+    <header class="hero">
+      <div>
+        <h1>عيد ميلاد سعيد يا <mark>عليم</mark></h1>
+        <p class="lead">خويا البشوش، المضحك، والعاقل. عرفتك من عام وشوية وحبيت نخليلك هاد الموقع هدية صغيرة.</p>
+      </div>
+      <div class="photo-frame">
+        <img src="img/p3.jpg" alt="عليم مبتسم وواقف ويداه متقاطعتان">
+      </div>
+    </header>
+
+    <section>
+      <h2 class="sec-title">ذكريات السطاج العسكري</h2>
+      <p class="sec-sub">فوتنا السطاج كيف كيف، وهاذي الجمل اللي ما تتنساش.</p>
+
+      <div class="file">
+        <h3>ملف الجندي</h3>
+        <dl>
+          <dt>الاسم</dt><dd>عليم</dd>
+          <dt>الرتبة</dt><dd>بوجلال المنضبط</dd>
+          <dt>الاختصاص</dt><dd>الاوووبس</dd>
+          <dt>المهمة السرية</dt><dd>الطيار المخفي</dd>
+          <dt>الطباع</dt><dd>بشوش، مضحك، عاقل</dd>
+          <dt>مدة الصحبة</dt><dd>عام وشوية</dd>
+        </dl>
+      </div>
+
+      <div class="patches">
+        <article class="patch">
+          <span class="tag">قانون الغنا</span>
+          <q>كي نبدا نغني تقرب البرميسيو</q>
+          <p>الغنا يبدا والبرميسيو يقرب. اللي كان معانا يفهم قصدي.</p>
+        </article>
+        <article class="patch">
+          <span class="tag">الرتبة</span>
+          <q>بوجلال المنضبط</q>
+          <p>منضبط ومحترم، على الأقل قدام القائد.</p>
+        </article>
+        <article class="patch">
+          <span class="tag">الاختصاص</span>
+          <q>الاوووبس هي ميور اختصاص</q>
+          <p>اختصاص ما يتقنو غير هو، وما يتنافسش فيه حتى واحد.</p>
+        </article>
+        <article class="patch">
+          <span class="tag">المهمة السرية</span>
+          <q>الطيار المخفي</q>
+          <p>ما تشوفو غير كي يبغي هو. مهمة سرية بامتياز.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="sec-title">صور من الذكريات</h2>
+      <p class="sec-sub">شوية لقطات تثبت أنك دايما بخير. اضغط على أي صورة باش تكبرها.</p>
+      <div class="grid">
+        <figure class="shot"><button type="button" class="open" data-src="img/p1.jpg" data-cap="الفيلسوف قدام السور"><img src="img/p1.jpg" alt="صورة قرب سور حجري" loading="lazy"></button><figcaption>الفيلسوف قدام السور</figcaption></figure>
+        <figure class="shot"><button type="button" class="open" data-src="img/p2.jpg" data-cap="خرجة الليل بالسبور"><img src="img/p2.jpg" alt="صورة بجاكيت رياضي في الليل" loading="lazy"></button><figcaption>خرجة الليل بالسبور</figcaption></figure>
+        <figure class="shot"><button type="button" class="open" data-src="img/p4.jpg" data-cap="لابس الدودون وكأن الشتاء جا"><img src="img/p4.jpg" alt="صورة بجاكيت منفوخ في الشارع" loading="lazy"></button><figcaption>لابس الدودون وكأن الشتاء جا</figcaption></figure>
+        <figure class="shot tall"><button type="button" class="open" data-src="img/p6.jpg" data-cap="ذكرى الطريق والصحبة"><img src="img/p6.jpg" alt="سيلفي في الحافلة" loading="lazy"></button><figcaption>ذكرى الطريق والصحبة</figcaption></figure>
+        <figure class="shot"><button type="button" class="open" data-src="img/p5.jpg" data-cap="البحر والصخور والضحكة"><img src="img/p5.jpg" alt="صورة قرب الصخور" loading="lazy"></button><figcaption>البحر والصخور والضحكة</figcaption></figure>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="sec-title">كلمة على الصحبة</h2>
+      <div class="letter">
+        <p>عام وشوية وحنا نعرفو بعضانا. فيه ناس تعرفهم عمر كامل وما تحسش بيهم كيما تحس بيك.</p>
+        <p>ضحكتك تنسي الواحد التعب، وعقلك يرجعنا للصح كي نخلطو. ماشي مهم شحال من يوم عرفتك، المهم شحال من مرة كنا مع بعض وما حسيناش بالوقت.</p>
+        <p>الله يخليك لينا ويفرحك ويحقق كل لي تتمناه.</p>
+        <ul class="wishes">
+          <li>تبقى بشوش</li>
+          <li>تبقى مضحك</li>
+          <li>تبقى عاقل</li>
+          <li>وتفكر في البرميسيو</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="party">
+      <h2 class="sec-title">وقت الاحتفال</h2>
+      <p id="wish">كل عام وأنت بخير يا عليم</p>
+      <button class="btn" id="partyBtn" type="button">اضغط للاحتفال</button>
+    </section>
+
+    <footer>
+      <p><strong>من خوك</strong>، وكل عام وأنت بخير يا عليم.</p>
+    </footer>
+  </main>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button type="button" class="close" id="lbClose" aria-label="إغلاق">×</button>
+    <img id="lbImg" alt="">
+    <p id="lbCap"></p>
+  </div>
+
+  <canvas id="fx" aria-hidden="true"></canvas>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
